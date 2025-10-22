@@ -1,6 +1,7 @@
 import { Button } from "@/components/ui/button";
 import { motion } from "framer-motion";
 import { ArrowRight, Sparkles } from "lucide-react";
+import { Link } from "react-router-dom";
 
 export const CTASection = () => {
   return (
@@ -35,10 +36,12 @@ export const CTASection = () => {
           </p>
           
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <Button size="lg" className="bg-primary hover:bg-primary/90 glow-effect group">
-              Get Started Free
-              <ArrowRight className="ml-2 w-5 h-5 group-hover:translate-x-1 transition-transform" />
-            </Button>
+            <Link to="/auth">
+              <Button size="lg" className="bg-primary hover:bg-primary/90 glow-effect group">
+                Get Started Free
+                <ArrowRight className="ml-2 w-5 h-5 group-hover:translate-x-1 transition-transform" />
+              </Button>
+            </Link>
             <Button size="lg" variant="outline" className="border-primary/50 hover:bg-primary/10">
               Schedule a Demo
             </Button>

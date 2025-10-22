@@ -1,6 +1,8 @@
 import { Button } from "@/components/ui/button";
 import { Menu } from "lucide-react";
 import { motion } from "framer-motion";
+import { Link } from "react-router-dom";
+import bizeyeEye from "@/assets/bizeye-eye-icon.png";
 
 export const Navbar = () => {
   return (
@@ -12,10 +14,10 @@ export const Navbar = () => {
     >
       <div className="container mx-auto px-6 py-4">
         <div className="flex items-center justify-between">
-          <div className="flex items-center gap-2">
-            <div className="w-8 h-8 bg-gradient-to-br from-primary to-accent rounded-lg" />
+          <Link to="/" className="flex items-center gap-2">
+            <img src={bizeyeEye} alt="BizEye Logo" className="w-10 h-10" />
             <span className="text-2xl font-bold text-gradient">BizEye</span>
-          </div>
+          </Link>
           
           <div className="hidden md:flex items-center gap-8">
             <a href="#features" className="text-foreground hover:text-primary transition-colors">
@@ -27,9 +29,11 @@ export const Navbar = () => {
             <a href="#analytics" className="text-foreground hover:text-primary transition-colors">
               Analytics
             </a>
-            <Button variant="default" className="bg-primary hover:bg-primary/90 glow-effect">
-              Get Started
-            </Button>
+            <Link to="/auth">
+              <Button variant="default" className="bg-primary hover:bg-primary/90 glow-effect">
+                Get Started
+              </Button>
+            </Link>
           </div>
           
           <Button variant="ghost" size="icon" className="md:hidden">

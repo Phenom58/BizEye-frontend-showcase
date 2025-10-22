@@ -1,7 +1,8 @@
 import { Button } from "@/components/ui/button";
-import { Hero3D } from "./Hero3D";
+import { DoodleBackground } from "./DoodleBackground";
 import { motion } from "framer-motion";
 import { ArrowRight, Play } from "lucide-react";
+import { Link } from "react-router-dom";
 
 export const HeroSection = () => {
   return (
@@ -13,10 +14,8 @@ export const HeroSection = () => {
         style={{ background: "var(--gradient-glow)" }}
       />
       
-      {/* 3D Scene */}
-      <div className="absolute inset-0 opacity-40">
-        <Hero3D />
-      </div>
+      {/* Doodle Background */}
+      <DoodleBackground />
       
       {/* Content */}
       <div className="container relative z-10 px-6 py-32">
@@ -57,10 +56,12 @@ export const HeroSection = () => {
             transition={{ duration: 0.8, delay: 0.8 }}
             className="flex flex-col sm:flex-row gap-4 justify-center items-center"
           >
-            <Button size="lg" className="bg-primary hover:bg-primary/90 glow-effect group">
-              Start Free Trial
-              <ArrowRight className="ml-2 w-5 h-5 group-hover:translate-x-1 transition-transform" />
-            </Button>
+            <Link to="/auth">
+              <Button size="lg" className="bg-primary hover:bg-primary/90 glow-effect group">
+                Start Free Trial
+                <ArrowRight className="ml-2 w-5 h-5 group-hover:translate-x-1 transition-transform" />
+              </Button>
+            </Link>
             <Button size="lg" variant="outline" className="border-primary/50 hover:bg-primary/10 group">
               <Play className="mr-2 w-5 h-5 group-hover:scale-110 transition-transform" />
               Watch Demo

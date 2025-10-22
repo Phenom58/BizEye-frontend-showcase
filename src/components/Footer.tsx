@@ -1,4 +1,5 @@
 import { motion } from "framer-motion";
+import bizeyeEye from "@/assets/bizeye-eye-icon.png";
 
 export const Footer = () => {
   const links = {
@@ -14,7 +15,7 @@ export const Footer = () => {
         <div className="grid md:grid-cols-5 gap-8 mb-12">
           <div className="md:col-span-1">
             <div className="flex items-center gap-2 mb-4">
-              <div className="w-8 h-8 bg-gradient-to-br from-primary to-accent rounded-lg" />
+              <img src={bizeyeEye} alt="BizEye Logo" className="w-10 h-10" />
               <span className="text-xl font-bold text-gradient">BizEye</span>
             </div>
             <p className="text-sm text-muted-foreground">
