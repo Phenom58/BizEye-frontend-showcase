@@ -2,7 +2,7 @@ import { Button } from "@/components/ui/button";
 import { Menu } from "lucide-react";
 import { motion } from "framer-motion";
 import { Link } from "react-router-dom";
-import bizeyeEye from "@/assets/bizeye-eye-icon.png";
+import bizeyeLogo from "@/assets/bizeye-logo-main.jpg";
 
 export const Navbar = () => {
   return (
@@ -15,7 +15,7 @@ export const Navbar = () => {
       <div className="container mx-auto px-6 py-4">
         <div className="flex items-center justify-between">
           <Link to="/" className="flex items-center gap-2">
-            <img src={bizeyeEye} alt="BizEye Logo" className="w-10 h-10" />
+            <img src={bizeyeLogo} alt="BizEye Logo" className="w-12 h-12 rounded-lg bg-background/50 p-1 backdrop-blur-sm" />
             <span className="text-2xl font-bold text-gradient">BizEye</span>
           </Link>
           
