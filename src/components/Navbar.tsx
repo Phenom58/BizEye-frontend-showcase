@@ -30,7 +30,7 @@ export const Navbar = () => {
               Analytics
             </a>
             <Link to="/auth">
-              <Button variant="default" className="bg-primary hover:bg-primary/90 glow-effect">
+              <Button variant="hero" className="glow-effect">
                 Get Started
               </Button>
             </Link>

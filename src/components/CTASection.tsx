@@ -37,8 +37,8 @@ export const CTASection = () => {
           
           <div className="flex justify-center">
             <Link to="/auth">
-              <Button size="lg" className="bg-primary hover:bg-primary/90 glow-effect group">
-                Get Started Free
+              <Button size="lg" variant="hero" className="glow-effect group">
+                Get Started
                 <ArrowRight className="ml-2 w-5 h-5 group-hover:translate-x-1 transition-transform" />
               </Button>
             </Link>
