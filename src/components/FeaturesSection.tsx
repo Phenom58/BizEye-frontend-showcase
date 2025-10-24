@@ -38,6 +38,7 @@ export const FeaturesSection = () => {
 
   return (
     <section id="features" className="py-24 relative">
+      <div className="absolute inset-0 bg-gradient-to-b from-background via-background to-background" />
       <div className="container mx-auto px-6">
         <motion.div
           initial={{ opacity: 0, y: 30 }}

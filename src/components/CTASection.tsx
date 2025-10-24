@@ -6,9 +6,9 @@ import { Link } from "react-router-dom";
 export const CTASection = () => {
   return (
     <section className="py-24 relative overflow-hidden">
-      <div className="absolute inset-0 bg-gradient-to-br from-primary/20 via-accent/10 to-background" />
+      <div className="absolute inset-0 bg-gradient-to-b from-background via-primary/5 to-background" />
       <div 
-        className="absolute inset-0 opacity-30"
+        className="absolute inset-0 opacity-20"
         style={{ background: "var(--gradient-glow)" }}
       />
       

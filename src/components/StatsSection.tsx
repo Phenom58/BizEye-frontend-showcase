@@ -10,7 +10,7 @@ export const StatsSection = () => {
 
   return (
     <section className="py-24 relative">
-      <div className="absolute inset-0 bg-gradient-to-b from-card to-background" />
+      <div className="absolute inset-0 bg-gradient-to-b from-background via-background to-background" />
       
       <div className="container mx-auto px-6 relative">
         <div className="grid grid-cols-2 md:grid-cols-4 gap-8 max-w-6xl mx-auto">

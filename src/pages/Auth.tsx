@@ -5,7 +5,7 @@ import { Input } from "@/components/ui/input";
 import { Checkbox } from "@/components/ui/checkbox";
 import { Link } from "react-router-dom";
 import { Mail, Lock, User } from "lucide-react";
-import bizeyeLogo from "@/assets/bizeye-logo-main.jpg";
+import bizeyeLogo from "@/assets/bizeye-logo-main.png";
 import { DoodleBackground } from "@/components/DoodleBackground";
 
 const Auth = () => {

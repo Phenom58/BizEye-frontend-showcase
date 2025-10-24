@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import bizeyeLogo from "@/assets/bizeye-logo-main.jpg";
+import bizeyeLogo from "@/assets/bizeye-logo-main.png";
 
 export const Footer = () => {
   const links = {

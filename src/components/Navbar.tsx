@@ -2,7 +2,7 @@ import { Button } from "@/components/ui/button";
 import { Menu } from "lucide-react";
 import { motion } from "framer-motion";
 import { Link } from "react-router-dom";
-import bizeyeLogo from "@/assets/bizeye-logo-main.jpg";
+import bizeyeLogo from "@/assets/bizeye-logo-main.png";
 
 export const Navbar = () => {
   return (
