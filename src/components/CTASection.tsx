@@ -39,7 +39,7 @@ export const CTASection = () => {
             <Link to="/auth">
               <Button size="lg" variant="hero" className="glow-effect group">
                 Get Started
-                <ArrowRight className="ml-2 w-5 h-5 group-hover:translate-x-1 transition-transform" />
+                <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
               </Button>
             </Link>
           </div>

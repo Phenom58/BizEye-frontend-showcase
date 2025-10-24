@@ -30,7 +30,7 @@ export const Navbar = () => {
               Analytics
             </a>
             <Link to="/auth">
-              <Button variant="hero" className="glow-effect">
+              <Button variant="cta" className="glow-effect">
                 Get Started
               </Button>
             </Link>
