@@ -37,7 +37,7 @@ export const DoodleBackground = () => {
   const getRandomDuration = () => 20 + Math.random() * 20;
 
   return (
-    <div ref={canvasRef} className="absolute inset-0 overflow-hidden opacity-20 pointer-events-none">
+    <div ref={canvasRef} className="absolute inset-0 overflow-hidden opacity-10 pointer-events-none">
       {doodleIcons.map((item, index) => {
         const { Icon, delay } = item;
         const startPos = getRandomPosition();
@@ -77,7 +77,7 @@ export const DoodleBackground = () => {
       })}
       
       {/* Additional floating elements for depth */}
-      {Array.from({ length: 15 }).map((_, i) => {
+      {Array.from({ length: 25 }).map((_, i) => {
         const startPos = getRandomPosition();
         const endPos = getRandomPosition();
         const size = Math.random() * 6 + 2;
