@@ -37,7 +37,7 @@ export const DoodleBackground = () => {
   const getRandomDuration = () => 20 + Math.random() * 20;
 
   return (
-    <div ref={canvasRef} className="absolute inset-0 overflow-hidden opacity-10 pointer-events-none">
+    <div ref={canvasRef} className="absolute inset-0 overflow-hidden opacity-30 pointer-events-none">
       {doodleIcons.map((item, index) => {
         const { Icon, delay } = item;
         const startPos = getRandomPosition();
@@ -69,7 +69,7 @@ export const DoodleBackground = () => {
             }}
           >
             <Icon 
-              className="w-12 h-12 md:w-16 md:h-16 text-primary" 
+              className="w-12 h-12 md:w-16 md:h-16 text-primary/40" 
               strokeWidth={1.5}
             />
           </motion.div>
@@ -85,7 +85,7 @@ export const DoodleBackground = () => {
         return (
           <motion.div
             key={`particle-${i}`}
-            className="absolute rounded-full bg-primary/30"
+            className="absolute rounded-full bg-primary/20"
             style={{
               width: size,
               height: size,
