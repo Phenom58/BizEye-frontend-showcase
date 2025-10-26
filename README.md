@@ -1,73 +1,116 @@
-# Welcome to your Lovable project
+# BizEye Frontend UI (Showcase Edition)
 
-## Project info
+BizEye is a sleek and modern analytics dashboard built to empower businesses with actionable insights through a clean and intuitive user interface.  
+This repository focuses exclusively on the **UI experience** designed for the BizEye platform.
 
-**URL**: https://lovable.dev/projects/62a2622e-1edc-43ef-9443-a47fef3494bd
+> A polished, executive-level business dashboard designed for performance, clarity, and visual storytelling.
 
-## How can I edit this code?
+---
 
-There are several ways of editing your application.
+## ✨ What’s Inside?
 
-**Use Lovable**
+✅ Fully designed dashboard UI  
+✅ Analytics visualizations & layout components  
+✅ Product insights screens  
+✅ Authentication pages  
+✅ Modern design system integration  
+✅ API-ready architecture (integration coming later)
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/62a2622e-1edc-43ef-9443-a47fef3494bd) and start prompting.
+---
 
-Changes made via Lovable will be committed automatically to this repo.
+## 🖥️ UI Highlights
 
-**Use your preferred IDE**
+| Feature | Description |
+|--------|-------------|
+| Analytics Dashboard | Key KPIs, charts, and visual insights |
+| Product Insights | Overview of product performance UI |
+| Clean Navigation | Sidebar + topbar for seamless user flow |
+| Profile Management | Settings & user preferences screens |
+| Reusable Components | Built for scalable SaaS UI |
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+---
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+## ⚙️ Tech Stack
 
-Follow these steps:
+| Layer | Tools Used |
+|------|------------|
+| Framework | React (with Vite build tooling) |
+| Language | JavaScript / TypeScript-ready |
+| Styling | Tailwind CSS + shadcn-ui |
+| Icons & UI Polish | Lucide Icons, utility component design |
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+---
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+## 📂 Project Structure
 
-# Step 3: Install the necessary dependencies.
-npm i
-
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
 ```
 
-**Edit a file directly in GitHub**
+src/
+├── components/
+├── pages/
+│   ├── Dashboard/
+│   ├── Analytics/
+│   ├── Products/
+│   ├── Profile/
+│   └── Auth/
+├── services/
+│   └── apiService.js  (placeholder)
+└── utils/
+└── auth.js        (placeholder)
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+````
 
-**Use GitHub Codespaces**
+> Note: Backend integration is not included in this repo version.
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+---
 
-## What technologies are used for this project?
+## 🚀 Getting Started
 
-This project is built with:
+Make sure **Node.js** + **npm** are installed.
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+```sh
+# Clone the repository
+git clone <YOUR_REPO_URL>
 
-## How can I deploy this project?
+# Go to directory
+cd <repo-name>
 
-Simply open [Lovable](https://lovable.dev/projects/62a2622e-1edc-43ef-9443-a47fef3494bd) and click on Share -> Publish.
+# Install dependencies
+npm install
 
-## Can I connect a custom domain to my Lovable project?
+# Start development server
+npm run dev
+````
 
-Yes, you can!
+Local dev preview:
+👉 [http://localhost:5173/](http://localhost:5173/)
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+---
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
+## 🧭 Roadmap (Front End)
+
+* [ ] Backend API integration
+* [ ] Sentiment results + charts
+* [ ] Login + Auth flow connected to real data
+* [ ] Dark mode support
+* [ ] Deploy preview build
+
+---
+
+## 🤝 Contributions
+
+Ideas and enhancements are always welcome.
+Feel free to fork, star, and suggest improvements!
+
+---
+
+## 🧑‍💻 Author
+
+**Prajwal**
+Crafting business experiences with clarity & style.
+
+---
+
+### ⭐ If you like this UI, give the repo a star. Your support fuels more magic!
+
+```
