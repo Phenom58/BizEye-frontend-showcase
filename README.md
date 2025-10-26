@@ -112,5 +112,3 @@ Crafting business experiences with clarity & style.
 ---
 
 ### ⭐ If you like this UI, give the repo a star. Your support fuels more magic!
-
-```
