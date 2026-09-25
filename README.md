@@ -60,8 +60,6 @@ src/
 
 ````
 
-> Note: Backend integration is not included in this repo version.
-
 ---
 
 ## 🚀 Getting Started
@@ -102,6 +100,4 @@ Local dev preview:
 **Prajwal**
 Crafting business experiences with clarity & style.
 
----
 
-### ⭐ If you like this UI, give the repo a star. Your support fuels more magic!
