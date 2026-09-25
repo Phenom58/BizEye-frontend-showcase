@@ -97,13 +97,6 @@ Local dev preview:
 
 ---
 
-## 🤝 Contributions
-
-Ideas and enhancements are always welcome.
-Feel free to fork, star, and suggest improvements!
-
----
-
 ## 🧑‍💻 Author
 
 **Prajwal**
