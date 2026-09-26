@@ -95,9 +95,4 @@ Local dev preview:
 
 ---
 
-## 🧑‍💻 Author
-
-**Prajwal**
-Crafting business experiences with clarity & style.
-
 
