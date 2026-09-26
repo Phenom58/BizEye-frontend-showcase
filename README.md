@@ -3,7 +3,7 @@
 BizEye is a sleek and modern analytics dashboard built to empower businesses with actionable insights through a clean and intuitive user interface.  
 This repository focuses exclusively on the **UI experience** designed for the BizEye platform.
 
-> A polished, executive-level business dashboard designed for performance, clarity, and visual storytelling.
+A polished, executive-level business dashboard designed for performance, clarity, and visual storytelling.
 
 ---
 
