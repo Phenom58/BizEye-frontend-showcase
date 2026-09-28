@@ -51,10 +51,6 @@ src/
 │   ├── Dashboard/
 │   ├── Analytics/
 │   ├── Products/
-│   ├── Profile/
-│   └── Auth/
-├── services/
-│   └── apiService.js  (placeholder)
 
 ````
 
