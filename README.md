@@ -43,17 +43,6 @@ A polished, executive-level business dashboard designed for performance, clarity
 
 ## 📂 Project Structure
 
-```
-
-src/
-├── components/
-├── pages/
-│   ├── Dashboard/
-│   ├── Analytics/
-│   ├── Products/
-
-````
-
 ---
 
 ## 🚀 Getting Started
