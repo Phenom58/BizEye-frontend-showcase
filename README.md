@@ -55,8 +55,6 @@ src/
 │   └── Auth/
 ├── services/
 │   └── apiService.js  (placeholder)
-└── utils/
-└── auth.js        (placeholder)
 
 ````
 
